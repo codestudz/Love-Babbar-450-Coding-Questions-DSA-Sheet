@@ -4,8 +4,7 @@ class Solution
     string reverseWord(string str)
     {
         // Your code goes here
-        int n = str.length();
-        int l = 0,h = n-1;
+        int l = 0,h = str.length()-1;
         while(l<h){
             swap(str[l],str[h]);
             l++;
